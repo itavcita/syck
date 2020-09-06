@@ -1,8 +1,8 @@
 # -*- encoding: utf-8 -*-
 
 Gem::Specification.new do |s|
-  s.name = "syck"
-  s.version = "1.4.0"
+  s.name = "syck-for-ror6"
+  s.version = "1.4.0-vcita"
 
   s.summary = "A gemified version of Syck from Ruby's stdlib"
   s.description = "A gemified version of Syck from Ruby's stdlib.  Syck has been removed from\nRuby's stdlib, and this gem is meant to bridge the gap for people that haven't\nupdated their YAML yet."

@@ -8,12 +8,12 @@
 
 require 'yaml/syck'
 
-Object.class_eval <<-eorb, __FILE__, __LINE__ + 1
-  remove_const 'YAML' if defined? YAML
-  YAML = Syck
-  remove_method :to_yaml
-  alias :to_yaml :syck_to_yaml
-eorb
+# Object.class_eval <<-eorb, __FILE__, __LINE__ + 1
+#   remove_const 'YAML' if defined? YAML
+#   YAML = Syck
+#   remove_method :to_yaml
+#   alias :to_yaml :syck_to_yaml
+# eorb
 
 # == YAML
 #
